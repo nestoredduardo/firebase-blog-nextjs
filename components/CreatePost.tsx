@@ -1,7 +1,7 @@
 //Documentation : https://firebase.google.com/docs/firestore/quickstart#web-v9_2
 import { useState } from "react";
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc } from "firebase/firestore/lite";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 import firebaseConfig from "@config/fire-conf";
 
